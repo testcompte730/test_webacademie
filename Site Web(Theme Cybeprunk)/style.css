@@ -1,0 +1,158 @@
+/*Image de fond du site*/
+body
+{
+	background-color: black;
+	background-image:url("img/cyberpunk_background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+}
+
+/*Police d'écriture du site*/
+@font-face
+{
+	font-family:cyberpunk;
+	src:url("font/Cyberpunks.otf");
+}
+
+/*Attribuer la police d'écriture en une seul ligne*/
+.pres_title,.content_block_title_yellow,.content_block_title_white,.content_block_text,#pages_link_text,.pages_link_title,.return_button,.character_content_block_text
+{
+	font-family: cyberpunk;
+}
+
+/*Bloc de présentation*/
+.pres_block
+{
+	  max-width: fit-content;
+  	  margin-left: auto;
+      margin-right: auto;
+}
+
+/*Titre du bloc*/
+.pres_title
+{
+	color: rgb(235, 235, 52, 1.0);
+	font-size: 30px;
+}
+
+/*Attribuer une design de block pour la plupart des blocks*/
+.content_block,.character_block,.story_block{
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 50%;
+	margin-top: 30px;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	border-style:double ;
+ 	border-color:white;
+}
+
+
+/*Contenu du block "présentation du jeu" de la page index*/
+
+/*Image de fond du block*/
+#about_game_block{
+
+	 background-image: url("img/cyberpunk_block_background.gif");
+	 background-size: 100%;
+
+}
+
+/*Premier Texte du Block*/
+.content_block_title_yellow{
+	color: rgb(235, 235, 52, 1.0);
+	font-size: 20px;
+	text-align: center;
+}
+
+/*Second Texte du Block*/
+.content_block_title_white
+{
+	text-align: center;
+	color: white;
+}
+
+/*Troisème Texte Du Block*/
+.content_block_text
+{
+	color: rgb(235, 235, 52, 1.0);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*Block qui dirige l'utilisateur vers les autres pages*/
+
+/*Block des Liens*/
+.pages_link
+{
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+/*Texte du Block*/
+#pages_link_text
+{
+	color: white;
+	text-align: center;
+}
+
+/*Images des liens*/
+.pages_link_images,.story_img
+{
+	height: 350px;
+	width: 330px;
+	margin-left: 50px;
+	border-style: double;
+	border-color: white;
+	
+}
+/*Titre des pages*/
+
+.pages_link_title
+{
+	color: white;
+	text-align: center;
+}
+
+/*Lien Pour retourner à la page d'acceuil*/
+.return_button
+{
+	text-align: center;
+	color: white;
+}
+
+/*Les Videos de bande annonce*/
+.video_trailer
+{
+	margin-left: 20%;
+	margin-bottom: 10px;
+
+}
+
+/*page des personnages*/
+
+/*Image des personnages*/
+.character_img
+{
+	height: 650px;
+	width: 400px;
+	margin-left: 40px;
+	border-style: dotted;
+	border-color: white;
+}
+.character_block
+{
+	margin-bottom: 20px;
+}
+
+/*Page des mode histoire*/
+.story_img
+{
+	height: 450px;
+	width: 330px;
+	margin-left: 80px;
+}
+.story_block
+{
+	margin-bottom: 20px;
+}
